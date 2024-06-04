@@ -1,0 +1,497 @@
+.rewards{
+    border: 3px solid;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    background: black;
+    padding: 15px;
+
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+
+}
+.para1{
+    background-color: black;
+    color: white;
+    text-align: center;   
+    justify-content: center;
+    align-items: center;
+    margin: -18px -8px 0px -8px;
+}
+.para1 p{
+    padding: 25px;
+}
+
+.para1 a:link{
+    color: white;
+}
+
+.para1 a:visited{
+    color: white;
+}
+
+
+.container_cont1{
+    /*border: 2px solid;*/
+    position: absolute;
+    left: 0px;
+}
+.container_cont1 div{
+    width: 35px;
+    height: 6px;
+    background-color: black;
+    margin: 6px;
+}
+
+.container_cont2{
+    /*border: 2px solid;*/ 
+    position: absolute;
+}
+.container_cont3{
+    /*border: 2px solid; */
+    position: absolute;
+    right: 0px;
+}
+.container_cont3 a:link{
+    color: black;
+}
+.container_cont3 a:visited{
+    color: black;
+}
+
+.group1{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 450px;    
+}
+
+.newdrops{  
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: -20px;
+        border: 3px solid;    
+        font-size: 30px;
+        padding: 12px;
+        border-radius: 30px;
+        scale: 0.7; 
+        background-color: black;
+        color: white;
+}
+
+.mosttrending{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -20px;
+    border: 3px solid;
+    font-size: 30px;
+    padding: 12px;
+    border-radius: 30px;
+    scale: 0.7;
+    background-color: black;
+    color: white;  
+}
+.newdrops:hover{
+    background-color: white;
+    color: black;
+}
+
+.mosttrending:hover{
+    background-color: white;
+    color: black;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: row;
+    width:85%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.flex1_2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.viewall1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 450px;
+}
+
+.viewall2{ 
+    border: 3px solid lightgray;
+    text-align: center;
+    width: 25%;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 16px;
+}
+
+.viewall2:hover{
+    border: 3px solid black;
+}
+
+.trending{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: row;
+    width:85%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.flex2_2 img{
+    background: red;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.flex2_3:hover{
+    animation: scaleanimation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;   
+}
+
+@keyframes scaleanimation{
+    100%{transform: scale(1.1,1.1);}
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    width: 450px;
+}
+
+
+
+.shirt{
+    text-align: center;
+    width: 20%;
+    font-size: 20px;    
+}
+
+.tshirt{ 
+    text-align: center;
+    width: 25%;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.trouser{ 
+    text-align: center;
+    width: 30%;
+    font-size: 20px; 
+}
+
+.shirt1{
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 30px;
+}
+.tshirt1{
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 30px;
+}
+.trouser1{
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 30px;
+}
+
+.group2{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.shirt1:hover{
+    background-color: black;
+    color: white;
+}
+.tshirt1:hover{
+    background-color: black;
+    color: white;
+} 
+.trouser1:hover{
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    
+/*     
+.demolast_panel{
+   
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+
+
+
+@media only screen and (min-width: 768px) {
+
+.demolast_panel{
+   
+    display: flex;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+} */
+.lastdiv{
+    text-align: center;
+
+}
+.sign{
+    margin-top: 40px;
+    width: 30%;
+    margin-left: 10%;
+   
+}
+
+.email{
+    
+    width: 18%;
+    margin-left: 10%;
+    font-size: large;
+}
+.email input{
+    border: 0px solid ;
+    font-size: large;
+}
+
+.hr1{
+    width: 18%;
+    margin-left: 10%;
+}
+
+.icons{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.lastdiv p{
+    margin: auto;
+}
+
+
+/*
+.last_panel{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    border: 2px solid;
+    
+}
+.last_panel_1{
+    border: 2px solid;
+    
+    margin: 20px;
+}
+.last_panel_2{
+    border: 2px solid;
+    
+    margin: 20px;
+}
+.last_panel_3{
+    border: 2px solid;
+    
+    margin: 20px;
+}
+.last_panel_4{
+    border: 2px solid;
+    
+    margin: 20px;
+}
+
+
+
+
+
+
+
+.para1{
+    background-color: black;
+    color: white;
+    height: 16px;
+    text-align: center;
+    padding: 25px;
+}
+
+.anchor1:link{
+    color: white;
+}
+
+.anchor1:visited{
+    color: white;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: yellow;
+
+
+}
+
+.menu div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    width: 200px;
+  }
+
+
+.cont1{
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+}
+.cont2{
+    margin-left: auto;
+    width: 200px;
+}
+
+.profile,.search,.cart,.favorite:link{
+    color: black;
+}
+
+.profile,.search,.cart,.favorite:visited{
+    color: black;
+}
+.group1{
+    padding-top: 25px;
+
+}
+
+.hot{
+    text-align: center;
+    margin: 5px;
+
+}
+.newdrops{
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+
+}
+
+.mosttrending{
+    border: 2px solid black;
+    font-size: 20px;
+    margin-left: 2%;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.newdrops:hover{
+    background-color: white;
+    color: black;
+}
+
+.mosttrending:hover{
+    background-color: white;
+    color: black;
+}
+
+.flex1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+    
+}
+
+.flex2{
+    height: 470px;
+    width: 20%;
+    border: 3px solid black;
+    border-radius: 22px;
+    display: grid;
+    place-items: center;
+   
+}
+
+.flex2 img{
+    border-radius: 20px;
+}
+
+
+.viewall1{
+    text-align: center;
+    margin: 50px;
+
+}
+.viewall2{
+    border: 2px solid black;
+    font-size: 20px;
+    margin: 200px; 
+    padding: 10px;
+    width: 90px;
+
+}
+*/
