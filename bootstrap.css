@@ -5,11 +5,9 @@
     font-size: 20px;
     background: black;
     padding: 15px;
-
     position: fixed;
-    bottom: 40px;
-    right: 40px;
-
+    bottom: 1%;
+    right: 1%;
 }
 .para1{
     background-color: black;
@@ -31,133 +29,102 @@
     color: white;
 }
 
-.container{
-    display: grid;
-   /* border: 2px solid;*/
-    justify-content: center;
+.navbar{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    place-items: center;
-    position: relative;
-    height: 120px;
+    flex-direction: row;
+    
+    margin: 25px;
 }
-.container_cont1{
-    /*border: 2px solid;*/
-    position: absolute;
-    left: 0px;
+.unorder1{
+    
 }
-.container_cont1 div{
+.unorder1 div{
     width: 35px;
     height: 6px;
     background-color: black;
     margin: 6px;
 }
-
-.container_cont2{
-    /*border: 2px solid;*/ 
-    position: absolute;
+.imageya{
+ 
+    height: 100px;
+    width: 300px;
 }
-.container_cont3{
-    /*border: 2px solid; */
-    position: absolute;
-    right: 0px;
+.iconya li{
+    display: inline-block;
 }
-.container_cont3 a:link{
-    color: black;
-}
-.container_cont3 a:visited{
-    color: black;
-}
-
 .group1{
     margin-left: -8px;
     margin-right: -8px;
 }
 
-
 .button1{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 450px;    
-}
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .newdrops{
+      border: 3px solid black;
+      border-radius: 30px;
+      padding: 20px;
+      margin: 3%;
+      text-align: center;
+      font-weight: bolder;
+      background-color: black;
+      color: white;
+  }
+  .mosttrending{
+      border: 3px solid black;
+      border-radius: 30px;
+      padding: 20px;
+      margin :3%;
+      text-align: center;
+      font-weight: bolder;
+      background-color: black;
+      color: white;
+  }
 
-.newdrops{  
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-right: -20px;
-        border: 3px solid;    
-        font-size: 30px;
-        padding: 12px;
-        border-radius: 30px;
-        scale: 0.7; 
-        background-color: black;
-        color: white;
-}
-
-.mosttrending{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: -20px;
-    border: 3px solid;
-    font-size: 30px;
-    padding: 12px;
-    border-radius: 30px;
-    scale: 0.7;
-    background-color: black;
-    color: white;  
-}
 .newdrops:hover{
     background-color: white;
     color: black;
-}
-
+    }
+    
 .mosttrending:hover{
     background-color: white;
     color: black;
-}
+    }
 
-.flex1{
+.viewall{
     display: flex;
-    flex-direction: row;
-    width:85%;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-}
-
-.flex1_2 img{
-    width: 100%;
-    height: 100%;
-}
-
-
-.viewall1{
-    
-    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+}
+
+.viewalll{
+    text-align: center;
+    border: 3px solid lightgrey;
+    padding:15px;
+    width: 100px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    width: 450px;
+    font-weight: bolder;
 }
-
-.viewall2{ 
-    border: 3px solid lightgray;
-    text-align: center;
-    width: 25%;
-    font-size: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 16px;
-}
-
-.viewall2:hover{
+    
+.viewalll:hover{
     border: 3px solid black;
+   
+}
+
+.group2{
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 .trending{
@@ -165,11 +132,13 @@
     margin-top: 80px;
 }
 
+
 .flex2{
     display: flex;
     flex-direction: row;
     width:85%;
     flex-wrap: nowrap;
+    /* try flex no wrap it will make small but not wrap */
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
@@ -195,97 +164,95 @@
 
 .button2{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
-    margin-bottom: 60px;
-    width: 450px;
 }
-
-
 
 .shirt{
-    text-align: center;
-    width: 20%;
-    font-size: 20px;    
+      border: 3px solid black;
+      border-radius: 30px;
+      padding: 20px;
+      margin: 3%;
+      text-align: center;
+      font-weight: bolder;
+      background-color: white;
+      color: black;
+}
+.tshirt{
+      border: 3px solid black;
+      border-radius: 30px;
+      padding: 20px;
+      margin: 3%;
+      text-align: center;
+      font-weight: bolder;
+      background-color: white;
+      color: black;
+}
+.trouser{
+      border: 3px solid black;
+      border-radius: 30px;
+      padding: 20px;
+      margin: 3%;
+      text-align: center;
+      font-weight: bolder;
+      background-color: white;
+      color: black;
 }
 
-.tshirt{ 
-    text-align: center;
-    width: 25%;
-    font-size: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.trouser{ 
-    text-align: center;
-    width: 30%;
-    font-size: 20px; 
-}
-
-.shirt1{
-    padding: 10px;
-    border: 3px solid;
-    border-radius: 30px;
-}
-.tshirt1{
-    padding: 10px;
-    border: 3px solid;
-    border-radius: 30px;
-}
-.trouser1{
-    padding: 10px;
-    border: 3px solid;
-    border-radius: 30px;
-}
-
-.group2{
-    margin-left: -8px;
-    margin-right: -8px;
-}
-
-.shirt1:hover{
+.shirt:hover{
     background-color: black;
     color: white;
 }
-.tshirt1:hover{
+.tshirt:hover{
     background-color: black;
     color: white;
 } 
-.trouser1:hover{
+.trouser:hover{
     background-color: black;
     color: white;
 }
 
-.demolast_panel{
+.flex1{
+    display: flex;
+    width:85%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.flex1_2 img{
+    width: 300px;
+    height: 425px;
+}
    
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-    padding: 10px;
+.last_panel{
+    border: 3px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-
-.lastdiv{
-    text-align: center;
-
+.last_panel h3{
+    text-decoration: underline ;
+    font-size: 20px; 
 }
+
 .sign{
     margin-top: 40px;
-    width: 30%;
     margin-left: 10%;
-   
 }
 
 .email{
-    
-    width: 18%;
+    border-bottom: 3px solid;
+    width: 30%;
     margin-left: 10%;
     font-size: large;
 }
@@ -305,6 +272,35 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.lastdiv{
+    text-align: center;
+
+}
+
 .lastdiv p{
     margin: auto;
 }
+
+
+nav{
+    border: 3px solid;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+nav ul li div{
+    width: 35px;
+    height: 6px;
+    background-color: black;
+    margin: 6px;
+    
+}
+
+nav li{
+    display: inline-block;
+    border: 3px solid red;
+    
+}
+
